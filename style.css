@@ -53,6 +53,9 @@ table {
 /* #c9caca */
 
 /* start */
+/* * {
+	border: 1px solid black;
+} */
 body {
 	/* background-color: #c9caca !important; */
 	margin: 0;
@@ -86,9 +89,18 @@ a {
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
 	color:#fff;
-	letter-spacing: 2;
+	letter-spacing: 3;
+}
+.mt140	{
 	margin-top: 140px;
 }
+/* .floatFix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+} */
+
 @media (max-width: 767px) {
 	.vertical {
 		display: none;
@@ -102,8 +114,6 @@ a {
 	font-size: 25px;
 	cursor: pointer;
 	transition: color .2s ease-in;
-
-
 }
 @media (max-width: 767px) {
 	.navigation > li {
@@ -296,9 +306,6 @@ a {
 ul.tribe {
 	display: none;
 }
-.title {
-	text-align: center;
-}
 .title h1 {
 	color: #fff;
 }
@@ -315,8 +322,17 @@ ul.tribe {
 	font-size: 50px;
 	color: #fff;
 }
+@media (max-width: 767px ) {
+	.natureTogather {
+		font-size: 18px;
+	}
+}
+.slogan {
+	color: #d3caca;
+	height: 100%;
+}
 .title2	{
-	background-color: #f97a7a;
+	background-color: #d3caca;
 	margin: 5% auto;
 	max-width: 60%;
 	text-align: center;
@@ -341,5 +357,38 @@ ul.tribe {
 	height: auto;
 }
 
-
-
+.mainbgc {
+	background-color: #f97a7a;
+}
+.logo {
+	width: 30%;
+	background-color: darkgreen;
+	height: auto;
+	text-align: center;
+	vertical-align: center;
+}
+.contact {
+	width: 34%;
+	margin: 0 3%;
+}
+.contact-2 {
+	width: 30%;
+}
+.floatleft {
+	margin-top: 5%;
+	float: left;
+}
+@media (max-width: 767px) {
+	.logo {
+		width: 100%;
+	}
+	.contact {
+		width: 100%;
+	}
+	.contact-2 {
+		width: 100%;
+	}
+	.floatleft {
+		float : none;
+	}
+}
