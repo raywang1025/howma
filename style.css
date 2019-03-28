@@ -65,12 +65,17 @@ img {
 	height: auto;
 }
 .banner {
-	background-image: url("pic/howmaAM9A1768.jpg");
+	background-image: url("pic/howma-pc.jpg");
 	min-height: 1000px;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+}
+@media (max-width:767px) {
+	.banner {
+		background-image: url("pic/howma-mobile.jpg");
+	}
 }
 a {
 	color: #000;
@@ -294,7 +299,7 @@ ul.tribe {
 .title {
 	text-align: center;
 }
-.title h1, h2 {
+.title h1 {
 	color: #fff;
 }
 
@@ -307,13 +312,22 @@ ul.tribe {
 	}
 }
 .natureTogather {
-	font-size: 84px;
+	font-size: 50px;
+	color: #fff;
+}
+.title2	{
+	background-color: #f97a7a;
+	margin: 5% auto;
+	max-width: 60%;
+	text-align: center;
+	padding: 3% 0;
+	border-radius: 100px;
 }
 .title {
 	margin: 0;
 	position: relative;
 	width: 100%;
-	background-color: #000;
+	background-color: #f97a7a;
 	height: 300px;
 	opacity: 1;
 	text-align: center;
@@ -322,7 +336,10 @@ ul.tribe {
 	font-weight: 100;
 	color: #ccc;
 }
-
+.products img {
+	width: 100%;
+	height: auto;
+}
 
 
 
