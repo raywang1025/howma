@@ -70,11 +70,6 @@ img {
 	background-position: center center;
 	background-size: cover;
 }
-@media (max-width:767px) {
-	.banner {
-		/* background-image: url("pic/howma-mobile.jpg"); */
-	}
-}
 a {
 	color: #000;
 	font-family: 'Vollkorn', serif;
