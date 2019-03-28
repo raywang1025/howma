@@ -328,12 +328,18 @@ ul.tribe {
 @media (max-width: 767px) {
 	.logo {
 		width: 100%;
+		font-size: 11px;
+    line-height: 17px;
 	}
 	.contact {
 		width: 100%;
+		font-size: 11px;
+    line-height: 17px;
 	}
 	.contact-2 {
 		width: 100%;
+		font-size: 11px;
+    line-height: 17px;
 	}
 	.floatleft {
 		float : none;
