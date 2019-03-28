@@ -299,16 +299,12 @@ ul.tribe {
 	width: 100%;
 	height: auto;
 }
-
 .mainbgc {
 	background-color: #f97a7a;
 }
-.logo {
+.bottomlogo {
 	width: 30%;
-	background-color: darkgreen;
 	height: auto;
-	text-align: center;
-	vertical-align: center;
 }
 .contact {
 	width: 34%;
@@ -319,13 +315,12 @@ ul.tribe {
 }
 .floatleft {
 	margin-top: 5%;
+	margin-bottom: 5%;
 	float: left;
 }
 @media (max-width: 767px) {
-	.logo {
-		width: 100%;
-		font-size: 11px;
-    line-height: 17px;
+	.bottomlogo {
+		padding: 10px 10px;
 	}
 	.contact {
 		width: 100%;
@@ -362,4 +357,23 @@ ul.tribe {
 }
 .mb-0 {
 	margin-bottom: 0;
+}
+.reserve {
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	background-color: #fff;
+	z-index: 99;
+}
+.reserve a {
+	display: inline-block;
+	padding: 16px 48px 14px 40px;
+	color: #fff;
+	font-family: 'Vollkorn', serif Medium;
+	font-weight: bold;
+	font-size: 1.4rem;
+	background-color: #FB490E;
+}
+.footer {
+	margin: 10px 10px;
 }
