@@ -70,16 +70,16 @@ img {
 .banner {
 	background-image: url("pic/howma-pc.jpg");
 	min-height: 1000px;
-	width: 100%;
+	max-width: 100%;
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
 }
-@media (max-width:767px) {
+/* @media (max-width:767px) {
 	.banner {
 		background-image: url("pic/howma-mobile.jpg");
 	}
-}
+} */
 a {
 	color: #000;
 	font-family: 'Vollkorn', serif;
