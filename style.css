@@ -66,14 +66,13 @@ img {
 	background-image: url("pic/howma-pc.jpg");
 	width: 100vw;
 	height: 100vh;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-position: center center;
 	background-size: cover;
-	/* display: table; */
 }
 @media (max-width:767px) {
 	.banner {
-		background-image: url("pic/howma-mobile.jpg");
+		/* background-image: url("pic/howma-mobile.jpg"); */
 	}
 }
 a {
@@ -90,12 +89,12 @@ a {
 .mt140	{
 	margin-top: 140px;
 }
-/* .floatFix {
-	position: fixed;
+.floatFix {
+	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 3;
-} */
+}
 
 @media (max-width: 767px) {
 	.vertical {
