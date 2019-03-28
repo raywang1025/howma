@@ -299,6 +299,9 @@ ul.tribe {
 	width: 100%;
 	height: auto;
 }
+.products p {
+	font-size: 10px;
+}
 .mainbgc {
 	background-color: #f97a7a;
 }
